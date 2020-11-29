@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img7"
+    tools:context=".O_AdminActions">
+
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000">
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FFFF"
+            android:onClick="view_users"
+            android:text="View Users"
+
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="177dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#FFFF"
+            android:onClick="view_donars"
+            android:text="View Donars"
+
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFF"
+            android:onClick="admin_logout"
+            android:text="Logout"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+
+    </RadioGroup>
+
+</RelativeLayout>

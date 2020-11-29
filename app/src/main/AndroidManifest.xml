@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.letmecheck">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="SaveMe"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".B_ViewUsers"></activity>
+        <activity android:name=".B_ViewDonars" />
+        <activity android:name=".B_AdminActions" />
+        <activity android:name=".B_CreateProfile" />
+        <activity android:name=".Donate_Blood" />
+        <activity android:name=".B_UserActions" />
+        <activity android:name=".B_AdminLogin" />
+        <activity android:name=".B_UserLogin" />
+        <activity android:name=".B_UserSignUp" />
+        <activity android:name=".Create_Profile" />
+        <activity android:name=".View_Users" />
+        <activity android:name=".View_Donars" />
+        <activity android:name=".O_AdminActions" />
+        <activity android:name=".Donate_Organ" />
+        <activity android:name=".O_UserActions" />
+        <activity android:name=".O_AdminLogin" />
+        <activity android:name=".O_UserLogin" />
+        <activity android:name=".O_UserSignUp" />
+        <activity android:name=".Blood_don" />
+        <activity android:name=".Organ_don" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

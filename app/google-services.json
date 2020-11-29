@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514884835094",
+    "firebase_url": "https://letmecheck-dda51.firebaseio.com",
+    "project_id": "letmecheck-dda51",
+    "storage_bucket": "letmecheck-dda51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514884835094:android:ceaa7299076f6fb15a2237",
+        "android_client_info": {
+          "package_name": "com.example.letmecheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514884835094-um35utt3bpnacqjsk36912utbqbfmm3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDvAyxI4ERbs9bPgbn26eswuSD491hAbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514884835094-um35utt3bpnacqjsk36912utbqbfmm3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
